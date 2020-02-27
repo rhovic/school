@@ -7,51 +7,6 @@ public class Main {
 		GamingSpeaker s2 = new GamingSpeaker("Logitech", "Z625", "282 x 303 x 264", "Black", "Subwoofer", "N/A", "N/A", 6.5, 400, 96);
 		BluetoothSpeaker s3 = new BluetoothSpeaker("Marshall", "Stockwell II", "178 x 152 x 71", "Black", "N/A", "N/A", "N/A", 1.38, 100, 80);
 			
-		//Speaker 1
-		System.out.println("Brand:\t\t\t" + s1.getBrand());
-		System.out.println("Model:\t\t\t" + s1.getModel());
-		System.out.println("Bass Principle:\t\t" + s1.getBass());
-		System.out.println("Power Capacity:\t\t" + s1.getPower());
-		System.out.println("Frequency:\t\t" + s1.getFrequency());
-		System.out.println("Impedance:\t\t" + s1.getImpedance());
-		System.out.println("Weight(kg):\t\t" + s1.getWeight());
-		System.out.println("Sensitivity:\t\t" + s1.getSensitivity() + "dB");
-		System.out.println("Dimensions(mm):\t\t" + s1.getDimensions());
-		System.out.println("Color:\t\t\t" + s1.getColor());
-		
-		//GamingSpeaker 1
-		System.out.println("\n\n");
-		s2.print();
-		System.out.println("Brand:\t\t\t" + s2.getBrand());
-		System.out.println("Model:\t\t\t" + s2.getModel());
-		System.out.println("Bass Principle:\t\t" + s2.getBass());
-		System.out.println("Power Capacity:\t\t" + s2.getPower());
-		System.out.print("Frequency:\t\t" + s2.getFrequency());
-		s2.noDetails();
-		System.out.print("\nImpedance:\t\t" + s2.getImpedance());
-		s2.noDetails();
-		System.out.println("\nWeight(kg):\t\t" + s2.getWeight());
-		System.out.println("Sensitivity:\t\t" + s2.getSensitivity() + "dB");
-		System.out.println("Dimensions(mm):\t\t" + s2.getDimensions());
-		System.out.println("Color:\t\t\t" + s2.getColor());
-		
-		//BluetoothSpeaker 1
-		System.out.println("\n\n");
-		s3.print(1);
-		System.out.println("Brand:\t\t\t" + s3.getBrand());
-		System.out.println("Model:\t\t\t" + s3.getModel());
-		System.out.print("Bass Principle:\t\t" + s3.getBass());
-		s3.noDetails();
-		System.out.println("\nPower Capacity:\t\t" + s3.getPower());
-		System.out.print("Frequency:\t\t" + s3.getFrequency());
-		s3.noDetails();
-		System.out.print("\nImpedance:\t\t" + s3.getImpedance());
-		s3.noDetails();
-		System.out.println("\nWeight(kg):\t\t" + s3.getWeight());
-		System.out.println("Sensitivity:\t\t" + s3.getSensitivity() + "dB");
-		System.out.println("Dimensions(mm):\t\t" + s3.getDimensions());
-		System.out.println("Color:\t\t\t" + s3.getColor());
-		
 		//override
 		s3.setBrand("Bose");
 		s3.setModel("Soundlink Mini II");
